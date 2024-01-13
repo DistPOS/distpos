@@ -48,7 +48,7 @@ Next, the execution of msg.data is analyzed if they were transferred to the smar
 If all checks are passed, the transaction is included in the receiving blockchain.
   
 
-This architecture is much simpler than the proposed XCM from polkadot and does not require changing the format of transaction messages, only expanding the address structure. On the example of efirimua addresses, it can be same as email, with '@' symbol after address: 0x63ea7F78107dF4C6fd8b17e7b05b1b3D41a5B1Ab@e2e4, where e2e4 - conditional code of local blockchain.
+This architecture is much simpler than the proposed XCM from polkadot and does not require changing the format of transaction messages, only expanding the address structure. On the example of DistPOS ether addresses, it can be same as email, with '@' symbol after address: 0x63ea7F78107dF4C6fd8b17e7b05b1b3D41a5B1Ab@e2e4, where e2e4 - conditional code of local blockchain.
 
 ## Conclusion.
 Thus, we make a transparent bridge between different chains, which makes it possible to create a peer-to-peer blockchain network without a central relay chain. 
